@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background:url("https://wallpapers.com/images/hd/shoe-background-jn63vyxrzuv9l33i.jpg");
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  align-items: center;
+  justify-content: space-around;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+ul{
+  display: flex;
+flex-direction: row;
+list-style: none;
+gap: 15px;      
+}
+ul li{
+  cursor: pointer;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+} 
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 90px;
+  gap: 10px;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+
+}
+.hero-content h1{
+  font-weight: 800;
+  font-size: 105px;
+  line-height: 100px;
+}
+.hero-content p{
+  color: rgb(65, 65, 65);
+  width: 500px;
+  
+}
+
+.sm{
+padding: 10px 20px;
+color:white;
+background: red;
+font-weight: bold;
+font-size: 20px;
+border: none  ;
+}
+#ct{
+  font-weight: bold;
+  font-size: 20px;
+  border: none  ;
+  padding: 10px 20px;
+
+}
+.brand-icons{
+  display: flex;
+gap: 10px;
+width: 250px;
+align-items: start;
+margin-top: 5px;
+justify-content: start;
+}
+
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+.active{
+  color: red;
+}
+
